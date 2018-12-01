@@ -1,0 +1,962 @@
+.container {
+  min-width: 320px;
+}
+
+address span {
+  display: block;
+}
+
+a[href^="tel"], a[href^="tel"]:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+.hide4desktop {
+  display: none;
+}
+
+
+/* ========================================================================================= */
+/* >> fonts                                                                                  */
+/* ========================================================================================= */
+
+@font-face {
+  font-family: InterstateRegular;
+  src: url('../fonts/InterstateMazda-Regular.eot') format('embedded-opentype'),
+       url('../fonts/InterstateMazda-Regular.woff2') format('woff2'),
+       url('../fonts/InterstateMazda-Regular.woff') format('woff'),
+       url('../fonts/InterstateMazda-Regular.ttf') format('truetype'), 
+       url('../fonts/InterstateMazda-Regular.svg#InterstateRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: InterstateLight;
+  src: url('../fonts/InterstateMazda-Light.eot') format('embedded-opentype'),
+       url('../fonts/InterstateMazda-Light.woff2') format('woff2'),
+       url('../fonts/InterstateMazda-Light.woff') format('woff'),
+       url('../fonts/InterstateMazda-Light.ttf') format('truetype'), 
+       url('../fonts/InterstateMazda-Light.svg#InterstateLight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: InterstateBold;
+  src: url('../fonts/InterstateMazda-Bold.eot') format('embedded-opentype'),
+       url('../fonts/InterstateMazda-Bold.woff2') format('woff2'),
+       url('../fonts/InterstateMazda-Bold.woff') format('woff'),
+       url('../fonts/InterstateMazda-Bold.ttf') format('truetype'), 
+       url('../fonts/InterstateMazda-Bold.svg#InterstateBold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* ========================================================================================= */
+/* >> Buttons                                                                                */
+/* ========================================================================================= */
+
+.btn a:hover, .btn a:active, .btn a:focus {
+  text-decoration: none;
+}
+
+.btn:hover {
+  color: inherit;
+  transition: background .5s ease;
+}
+
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+
+#offers .btn:active {
+  top: 0;
+}
+
+.btn-ltgrey {
+  display: inline-block;
+  padding: .6em 1.0em .75em 1.0em;
+  color: white;
+  font: 14px/100% 'InterstateRegular', 'Open Sans', sans-serif;
+  text-align: center;
+  text-shadow: -1px 1px 1px rgba(0,0,0,.3);
+  background: #999;
+  border: 0;
+  border-radius: 2.0rem;
+}
+
+.btn-ltgrey:hover, .btn-ltgrey:focus {
+  color: white;
+  background: #a3a3a3;
+}
+
+.btn-header .glyphicon {
+  top: 2px;
+}
+
+.btn-dealer {
+  margin-top: 20px;
+}
+
+.btn-dealer a {
+  display: inline-block;
+  color: white;
+  font: 18px/100% 'InterstateRegular', 'Open Sans', sans-serif;
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(0,0,0,.3);
+  cursor: pointer;
+}
+
+.btn-dealer .btn-ltgrey {
+  padding: .6em 1em;
+  border-radius: .5rem;
+}
+
+.btn-utility {
+  color: #333;
+  border: 0;
+  background: transparent;
+}
+
+.btn-utility:hover, .btn-utility:active, .btn-utility:focus {
+  background: #ebebeb;
+}
+
+.btn-calendar {
+  background-color: transparent;
+  border-color: #ccc;
+}
+
+.btn-calendar:hover {
+  border-color: #adadad;
+  background-color: #ebebeb;
+}
+
+.btn-calendar a {
+  color: black;
+}
+
+.glyphicon-calendar:before {
+  content: "\e109";
+}
+
+.btn-footer {
+  padding: 8px;
+  color: black;
+  font: 15px/100% 'InterstateRegular', 'Open Sans', sans-serif;
+  border: 0px;
+  background: white;
+}
+
+.btn-footer:hover, .btn-footer:active, .btn-footer:focus {
+  color: white;
+  background: #222;
+}
+
+
+/* ========================================================================================= */
+/* >> Header / Nav                                                                           */
+/* ========================================================================================= */
+
+header .row {
+  height: 111px;
+}
+
+.navbar-default { 
+  background-color: #f4f5f5;
+}
+
+.navbar-fixed-top, .navbar-fixed-bottom {
+  border: none;
+}
+
+.navbar > .container .navbar-brand {
+  margin-left: 0;
+}
+
+.navbar .row { 
+  display: flex;
+}
+
+.navbar .row > div { 
+  align-self: center;
+}
+
+.navbar-brand img {
+  height: 71px;
+}
+
+.languagepreference {
+  padding-top: 7px;
+  color: black;
+  font: 17px/100% Helvetica, Arial, sans-serif;
+  text-align: center;
+  letter-spacing: -0.02em;
+}
+
+.languagepreference a {
+  color: black;
+}
+
+.navbar-right {
+  float: right !important;
+}
+
+
+/* ========================================================================================= */
+/* >> Main                                                                                  */
+/* ========================================================================================= */
+
+main {
+  background: rgb(255, 255, 255) transparent;
+  color: #000000;
+  padding-top: 130px;
+  position: relative;
+  text-align: left;
+  width: 100%;
+
+}
+
+.img-responsive { 
+  width: 100%;
+}
+
+#hero #dealerInfo {
+  padding-left: 0;
+}
+
+#dealerInfo {
+  color: #6d6e71;
+  text-align: right;
+}
+
+#dealerInfo h1 {
+  margin: 25px 0 0;
+  color: black;
+  font: bold 25px/1.28 Arial, sans-serif;
+  font-style: italic;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+#dealerInfo address, #dealerInfo a[href^="tel"] {
+  font: 18px/1.33 Arial, sans-serif;
+}
+
+#dealerInfo address {
+  margin: 0;
+}
+
+#intro {
+  padding: 42px 48px 55px;
+}
+
+#intro h2 {
+  margin: 0 0 10px;
+  color: black;
+  font: bold 26px/1.28 Arial, sans-serif;
+  font-style: italic;
+  letter-spacing: 0.02em;
+}
+
+#intro h3 {
+  margin: 0;
+  color: black;
+  font: bold 18px/1.33 Arial, sans-serif;
+  font-style: italic;
+  letter-spacing: 0.02em;
+}
+
+#intro p {
+  margin: 0 0 15px;
+  color: #6d6e71;
+  font: 18px/1.389 Arial, sans-serif;
+}
+
+/* ========================================================================================= */
+/* >> offers/promotions                                                                      */
+/* ========================================================================================= */
+
+.offer {
+  margin-bottom: 30px;
+  font: 14px/1.4 'InterstateLight', 'Open Sans', sans-serif;
+  background: url(../images/bg_plaidcheck.gif) repeat 0 0;
+  border: 1px solid #999;
+  border-radius: 5px;
+  transition: border .5s ease;
+}
+
+.offer:hover {
+  border:1px solid #0098d7;
+}
+
+.offer:last-of-type {
+  margin-bottom: 0;
+}
+
+.offer .row:first-of-type {
+  padding: 22px 0;
+}
+
+.offer-details-copy p {
+  padding-right: 40px;
+}
+
+.offer-intro h4 {
+  color: black;
+  font-family: 'InterstateLight', 'Open Sans', sans-serif;
+  font-weight: bold;
+  line-height: 1.28;
+  text-align: center;
+}
+
+.offer-intro-special {
+  margin: 6px 0 28px;
+  font-size: 19px;
+}
+
+.offer-intro-pricing {
+  margin:2px 0 30px;
+  font-size: 24px;
+}
+
+.offer-details {
+  color: black;
+}
+
+.offer-details-headline h3 {
+ margin: 0 0 5px;
+ font: bold 25px/1.28 'InterstateLight', 'Open Sans', sans-serif;
+ text-transform: uppercase;
+}
+
+.offer-details-copy p {
+ margin: 0 0 15px;
+ font: 14px/1.4 'InterstateLight', 'Open Sans', sans-serif;
+}
+
+.offer-details-copy p.offer-details-disclaimers {
+  margin: 0;
+  padding-top: 6px;
+  font-size: 12px;
+  line-height: 1.28;
+}
+
+.offer-expires {
+  color: black;
+  font: 14px/100% 'InterstateLight', 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+.offer-cta {
+  padding-left: 0;
+  padding-right: 0;
+  border-left: 1px solid #999; 
+  border-top: 1px solid #999;
+}
+
+.break {
+  display: block;
+  margin: 0 0 10px;
+  line-height: 10px;
+  content: " ";
+}
+
+
+/* ========================================================================================= */
+/* >> social media, dealer info, schedule appointment                                        */
+/* ========================================================================================= */
+
+#social-media {
+  padding: 35px 0;
+  text-align: center;
+}
+
+#social-media ul {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#social-media li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+#social-media a {
+  padding: 5px;
+}
+
+#dealership-headline {
+ background-color: black;
+}
+
+#dealership-headline h3 {
+  margin: 0;
+  padding: 8px 0;
+  color: white;
+  font: 16px/1.28 'InterstateRegular', 'Open Sans', sans-serif;
+  letter-spacing: -0.01em;
+  text-align: center;
+}
+
+#dealership-details {
+  padding: 35px 0 45px;
+  color: #333;
+  font: 14px/1.4 'InterstateLight', 'Open Sans', sans-serif;
+}
+
+#dealership-details h6 {
+  margin: 0 0 8px;
+  font: bold 14px/100% 'InterstateRegular', 'Open Sans', sans-serif;
+}
+
+#dealership-details ul {
+  margin: 0 0 20px;
+  padding: 0;
+}
+
+#dealership-details li {
+  list-style-type: none;
+}
+
+#dealership-details a {
+  color: #333;
+}
+
+
+/* ========================================================================================= */
+/* >> Aside                                                                                  */
+/* ========================================================================================= */
+
+aside {
+  padding: 47px 0 55px;
+  color: black;
+  font: 14px/1.28 'InterstateLight', 'Open Sans', sans-serif;
+  background: url(../images/bg_plaidcheck.gif) repeat 0 0;
+}
+
+aside h3 {
+  margin: 0 0 25px;
+  font: 25px/1.28 'InterstateLight', 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+
+aside ul {
+  width: 95%;
+  margin-bottom: 0;
+  padding-left: 15px;
+}
+
+aside li {
+  list-style-type: none;
+  margin-bottom: 12px;
+  padding-left: 14px;
+  letter-spacing: -0.015em;
+  background: url(../images/bg_bullet.png) no-repeat 0 4px;
+}
+
+aside li:last-of-type {
+  margin-bottom: 0;
+}
+
+
+#educational h6 {
+  text-align: left;
+}
+
+
+/* ========================================================================================= */
+/* >> Footer                                                                                 */
+/* ========================================================================================= */
+
+footer {
+  padding: 30px 0 35px;
+  color: black;
+  font: 15px/100% 'InterstateRegular', 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+footer a {
+  color: black;
+}
+
+footer a:hover {
+  color: white;
+}
+
+footer p {
+  margin: 0;
+  line-height: 1.28;
+}
+
+footer ul {
+  display: inline-block;
+  margin: 0 auto 18px;
+  padding: 0;
+}
+
+footer li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+
+/* ========================================================================================= */
+/* >> Modal Dialogs                                                                          */
+/* ========================================================================================= */
+
+.form-group > label {
+  font: 300 15px/100% 'InterstateLight', 'Open Sans', sans-serif;
+}
+
+.form-group > input {
+  color: #222;
+  font: normal 15px/100% 'InterstateLight', 'Open Sans', sans-serif;
+}
+
+.modal-dialog {
+  font-family: 'InterstateLight', 'Open Sans', sans-serif;
+}
+
+.modal-header {
+  background-color: #4c4c4c;
+}
+
+.modal-title {
+  color: white;
+  font-family: 'InterstateLight', 'Open Sans', sans-serif;
+}
+
+.close {
+  color: white;
+  font-size: 28px;
+}
+
+.modal-body p + p {
+  margin-bottom: 25px;
+}
+
+.modal-footer .btn-modal-close {
+  color: #333;
+  background: white;
+  border-color: #ccc;
+}
+
+.modal-footer .btn-modal-close:hover { 
+  background: #ebebeb;
+  border-color: #adadad;
+}
+
+.modal-footer .btn-modal-search {
+  color: white;
+  background-color: #d00000;
+}
+
+.modal-footer .btn-modal-search:hover {
+  color: white;
+  background: #d80000;
+  border-color: #910000;
+}
+
+#errSearch, #errSearchAgain {
+  position: relative;
+  top: 5px;
+  left: 10px;
+  color: red;
+  visibility:hidden;
+}
+
+#dealerlist {
+  width: 85%;
+  padding: 0 20px;
+  color: #333;
+  font-size: 16px;
+  line-height: 1.33;
+}
+
+#dealerlist .dealerlist-wrapper {
+  margin: 0 0 22px;
+}
+
+#dealerlist .dealerResults {
+  float: left;
+}
+
+#dealerlist .dealerDistance {
+  float: right;
+  text-align: right;
+}
+
+#dealerlist span {
+  display: block;
+}
+
+#dealerlist a {
+  color: black;
+  font-weight: bold;
+}
+
+#dealerlist a[href^="tel"] {
+  color: #333;
+  font-weight: normal;
+}
+
+
+/* ========================================================================================= */
+/* >> Media Queries                                                                          */
+/* ========================================================================================= */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+  #intro {
+    padding:37px 38px 50px;
+  }
+
+  #dealerInfo h1 {
+    font-size: 18px;
+  }
+
+
+  #dealerInfo address, #dealerInfo a[href^="tel"] {
+    font-size: 16px;
+  }
+
+  .btn-dealer a {
+    font-size: 15px;
+  }
+
+  .offer-intro-special {
+    font-size: 15px;
+  }
+
+}
+
+@media only screen and (max-width: 991px) {
+
+  #hero #dealerInfo, #intro {
+    padding-left: 44px;
+    padding-right: 44px;
+  }
+
+  #hero-banner {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  #dealerInfo {
+    text-align: left;
+  }
+
+  #dealerInfo h1 {
+    margin-top: 35px;
+  }
+
+  .btn-dealer {
+    margin-top: 35px;
+  }
+
+  #intro .col-xs-12 {
+    padding-left: 0;
+  }
+
+  #offers .offer {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .offer-details-copy p {
+    padding-right: 20px;
+  }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+  #intro h2 {
+    font-size: 25px;
+  }
+
+  .offer-intro-special {
+    margin: 8px 0 24px;
+    font-size: 11px;
+  }
+
+  .offer-intro-pricing {
+    margin-top: 6px;
+    font-size: 17px;
+  }
+
+  .offer-details-headline h3 {
+    font-size: 22px;
+  }
+
+  .offer-details-copy p {
+    font-size: 13.5px;
+  }
+
+  .offer-expires {
+    font-size: 11px;
+  }
+
+}
+
+@media only screen and (min-width: 768px) {
+
+  #offers div {
+    position: static;
+  }
+
+  #offers .row .row:last-of-type { 
+    display: flex;
+  }
+
+  .offer-expires {
+    align-self: center;
+  }
+
+}
+
+@media only screen and (max-width: 767px) {
+
+  #hero #dealerInfo, #intro {
+    padding-left: 6.75%;
+    padding-right: 6.75%;
+  }
+
+  .offer-details-copy p {
+    padding-right: 0;
+  }
+
+  .offer-intro-special {
+    margin-bottom: 6px;
+  }
+
+  .offer .pull-left, .offer .pull-right {
+    float: none !important;
+  }
+
+  .offer-details-headline h3 {
+    margin-bottom: 28px;
+    text-align: center;
+  }
+
+  .offer-expires {
+    margin-bottom: 25px;
+  }
+
+  .offer-cta {
+    border-left: 0;
+  }
+
+  #dealership-details {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  aside {
+    padding: 42px 0 50px;
+  }
+
+  aside .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #dealerlist {
+    width: 100%;
+    max-width: 375px;
+  }
+
+}
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+
+  #dealerInfo .btn-ltgrey {
+    width: 100%;
+    white-space: normal;
+  }
+
+  .btn-dealer a { 
+    font-size: 16px;
+  }
+
+  #dealerInfo h1 {
+    font-size: 20px;
+  }
+
+  #intro h2 {
+    font-size: 22px;
+  }
+
+  .col-xs-push-6 {
+    left: 50%;
+  }
+
+  .col-xs-pull-6 {
+    right: 50%;
+  }
+
+}
+
+@media only screen and (max-width: 599px) {
+
+  header .row {
+    height: 100px;
+  }
+
+  .navbar-brand img {
+    height: 62px
+  }
+
+  .languagepreference {
+    font-size: 14px;
+  }
+
+  main { 
+    padding-top: 115px;
+  }
+  
+  #dealerInfo address, 
+  #dealerInfo a[href^="tel"], 
+  #intro p,
+  .offer-details-copy p {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+
+  #dealerInfo .col-xs-7, #dealerInfo .col-xs-5 {
+    width: 100%;
+  }
+
+  .btn-dealer {
+    margin-top: 20px;
+  }
+
+  #intro {
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+ 
+  #intro h2 {
+    font-size: 24px;
+  }
+
+  .offer-intro-special {
+    font-size: 16px;
+  }
+
+  #dealership-details .col-xs-6 {
+    width: 100%;
+  }
+
+  #dealership-details .btn-ltgrey {
+    margin-top: 25px;
+  }
+
+  #dealership-headline h3 {
+    font-size: 16px;
+  }
+
+  #dealership-details {
+    font-size: 16px;
+  }
+
+  #dealership-details h6 {
+    font-size: 18px;
+  }
+
+  aside h3 {
+    font-size: 24px;
+  }
+
+  aside ul {
+    padding: 0;
+  }
+
+  aside li {
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+
+  footer ul {
+    margin: 0 auto 40px;
+  }
+
+  footer li {
+    display: block;
+  }
+
+  .btn-footer {
+    padding: 15px;
+  }
+
+}
+
+@media only screen and (max-width: 480px) {
+
+  #hero #dealerInfo, #intro {
+    padding-left: 7.75%;
+    padding-right: 7.75%;
+  }
+
+  .offer-details-headline h3 {
+    font-size: 22px;
+  }
+
+}
+
+@media only screen and (max-width: 414px) {
+
+  header .btn-ltgrey {
+    font-size: 12px;
+  }
+
+  main { 
+    padding-top: 110px;
+  }
+  
+  #dealerInfo h1 {
+    font-size: 21px;
+  }
+
+  #intro h2 {
+    font-size: 20px;
+  }
+
+  #intro h3 {
+    font-size: 16px;
+  }
+
+  .offer-details-headline h3 {
+    font-size: 20px;
+  }
+
+  #dealerlist {
+    padding: 0 10px;
+  }
+
+}
+
+@media only screen and (max-width: 345px) {
+
+  .hide4desktop {
+    display: block;
+  }
+
+  #dealerInfo h1 {
+    margin-top: 25px;
+    font-size: 18px;
+  }
+
+  #intro h2 {
+    font-size: 18px;
+  }
+
+  #dealerlist {
+    font-size: 15px;
+  }
+
+}
