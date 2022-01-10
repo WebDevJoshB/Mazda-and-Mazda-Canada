@@ -138,10 +138,6 @@ a[href^="tel"], a[href^="tel"]:hover {
   color: black;
 }
 
-.glyphicon-calendar:before {
-  content: "\e109";
-}
-
 .btn-footer {
   padding: 8px;
   color: black;
