@@ -3,7 +3,7 @@ _This repo and README is a work in progress, more details to come._
 
 Personalized emails holiday service reminder. Each email uses customer data.
 
-**Template Link:** [Mazda Holiday Email][src1]
+**Template Link:** [Holiday Email 2017][src1]
 
 <br/>
 

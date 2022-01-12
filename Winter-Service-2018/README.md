@@ -3,7 +3,7 @@ _This repo and README is a work in progress, more details to come._
 
 Personalized landing pages. Each email uses customer data and personalized coupons to drive traffic to dealerships.
 
-**Template Links:** [landing page][src1] | [dealer search][src2] | [search results][src3]
+**Template Links:** [landing page][src1] | [landing page w/ search][src2] | [landing page w/ search results][src3]
 
 <br/>
 
@@ -46,25 +46,39 @@ The following are screenshots at various screen widths. _Better layout to be des
 
 <table>
 <tr>
-    <td rowspan="3" valign="top"><a href="https://webdevjoshb.github.io/Mazda-and-Mazda-Canada/Winter-Service-2018/screenshots/320px.png" target="_blank">320px</a></td>
-    <td rowspan="3" valign="top"><a href="https://webdevjoshb.github.io/Mazda-and-Mazda-Canada/Winter-Service-2018/screenshots/414px.png" target="_blank">414px</a></td>
-    <td rowspan="3" valign="top"><a href="https://webdevjoshb.github.io/Mazda-and-Mazda-Canada/Winter-Service-2018/screenshots/480px.png" target="_blank">480px</a></td>
+    <td><a href="https://webdevjoshb.github.io/Mazda-and-Mazda-Canada/Winter-Service-2018/screenshots/320px.png" target="_blank">320px</a></td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td><a href="https://webdevjoshb.github.io/Mazda-and-Mazda-Canada/Winter-Service-2018/screenshots/414px.png" target="_blank">414px</a></td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td><a href="https://webdevjoshb.github.io/Mazda-and-Mazda-Canada/Winter-Service-2018/screenshots/480px.png" target="_blank">480px</a></td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
     <td><a href="https://webdevjoshb.github.io/Mazda-and-Mazda-Canada/Winter-Service-2018/screenshots/600px.png" target="_blank">600px</a></td>
+    <td><a href="https://webdevjoshb.github.io/Mazda-and-Mazda-Canada/Winter-Service-2018/screenshots/600px-search.png" target="_blank">w/ search window</a></td>
+    <td><a href="https://webdevjoshb.github.io/Mazda-and-Mazda-Canada/Winter-Service-2018/screenshots/600px-search-results.png" target="_blank">w/ search results</a></td>
+</tr>
+<tr>
     <td><a href="https://webdevjoshb.github.io/Mazda-and-Mazda-Canada/Winter-Service-2018/screenshots/768px.png" target="_blank">768px</a></td>
+    <td><a href="https://webdevjoshb.github.io/Mazda-and-Mazda-Canada/Winter-Service-2018/screenshots/768px-search.png" target="_blank">w/ search window</a></td>
+    <td><a href="https://webdevjoshb.github.io/Mazda-and-Mazda-Canada/Winter-Service-2018/screenshots/768px-search-results.png" target="_blank">w/ search results</a></td>
+</tr>
+<tr>
     <td><a href="https://webdevjoshb.github.io/Mazda-and-Mazda-Canada/Winter-Service-2018/screenshots/1024px.png" target="_blank">1024px</a></td>
+    <td><a href="https://webdevjoshb.github.io/Mazda-and-Mazda-Canada/Winter-Service-2018/screenshots/1024px-search.png" target="_blank">w/ search window</a></td>
+    <td><a href="https://webdevjoshb.github.io/Mazda-and-Mazda-Canada/Winter-Service-2018/screenshots/1024px-search-results.png" target="_blank">w/ search results</a></td>
+</tr>
+<tr>
     <td><a href="https://webdevjoshb.github.io/Mazda-and-Mazda-Canada/Winter-Service-2018/screenshots/1200px.png" target="_blank">1200px</a></td>
-</tr>
-<tr>
-    <td><a href="https://webdevjoshb.github.io/Mazda-and-Mazda-Canada/Winter-Service-2018/screenshots/600px-search.png" target="_blank">w/ search</a></td>
-    <td><a href="https://webdevjoshb.github.io/Mazda-and-Mazda-Canada/Winter-Service-2018/screenshots/768px-search.png" target="_blank">w/ search</a></td>
-    <td><a href="https://webdevjoshb.github.io/Mazda-and-Mazda-Canada/Winter-Service-2018/screenshots/1024px-search.png" target="_blank">w/ search</a></td>
-    <td><a href="https://webdevjoshb.github.io/Mazda-and-Mazda-Canada/Winter-Service-2018/screenshots/1200px-search.png" target="_blank">w/ search</a></td>
-</tr>
-<tr>
-    <td><a href="https://webdevjoshb.github.io/Mazda-and-Mazda-Canada/Winter-Service-2018/screenshots/600px-search-results.png" target="_blank">w/ results</a></td>
-    <td><a href="https://webdevjoshb.github.io/Mazda-and-Mazda-Canada/Winter-Service-2018/screenshots/768px-search-results.png" target="_blank">w/ results</a></td>
-    <td><a href="https://webdevjoshb.github.io/Mazda-and-Mazda-Canada/Winter-Service-2018/screenshots/1024px-search-results.png" target="_blank">w/ results</a></td>
-    <td><a href="https://webdevjoshb.github.io/Mazda-and-Mazda-Canada/Winter-Service-2018/screenshots/1200px-search-results.png" target="_blank">w/ results</a></td>
+    <td><a href="https://webdevjoshb.github.io/Mazda-and-Mazda-Canada/Winter-Service-2018/screenshots/1200px-search.png" target="_blank">w/ search window</a></td>
+    <td><a href="https://webdevjoshb.github.io/Mazda-and-Mazda-Canada/Winter-Service-2018/screenshots/1200px-search-results.png" target="_blank">w/ search results</a></td>
 </tr>
 </table>
 
